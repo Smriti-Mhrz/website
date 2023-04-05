@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  z-index: -1;
+}
+.container img {
+  width: 100%;
+  overflow: hidden;
+  height: 76vh;
+}
+.container .navbar {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  /* border: 5px solid red; */
+}
+.container .title {
+  color: rgb(245, 139, 139);
+}
+.container .links {
+  font-weight: 100%;
+  position: absolute;
+  left: 729px;
+  top: 4px;
+  /* border: 2px solid grey;   */
+  list-style: none;
+  display: flex;
+  align-items: right;
+  color: rgb(224, 208, 208);
+  font-size: 18px;
+}
+.container .links li {
+  align-items: flex-end;
+  padding-right: 20px;
+}
+.container .links .menu {
+  border: 1px solid grey;
+  padding: 6px;
+}/*# sourceMappingURL=NavBar.css.map */

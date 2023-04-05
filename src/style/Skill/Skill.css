@@ -1,0 +1,143 @@
+.skill-section {
+  /* border: 1px solid black; */
+  align-items: center;
+  place-items: center;
+  width: 70%;
+  margin: auto;
+}
+.skill-section .skill-head {
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.skill-main {
+  background-color: white;
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  padding: 45px;
+}
+
+.skillbar .info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.skillbar .info .percent {
+  font-weight: bold;
+}
+.skillbar .bar {
+  width: 100%;
+  height: 10px;
+  background-color: grey;
+  border-radius: 25px;
+  margin-top: 5px;
+  position: relative;
+}
+.skillbar .bar span {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(255, 85, 85);
+  border-radius: 25px;
+}
+.skillbar .bar .wordpress {
+  width: 80%;
+}
+.skillbar .bar .js {
+  width: 52%;
+}
+.skillbar .bar .drupal {
+  width: 61%;
+}
+.skillbar .bar .html {
+  width: 89%;
+}
+.skillbar .bar .php {
+  width: 99%;
+}
+.skillbar .bar .photoshop {
+  width: 97%;
+}
+
+.portfolio {
+  width: 72%;
+  margin: auto;
+  margin-top: 4%;
+}
+.portfolio .portfolio-head {
+  text-align: center;
+}
+
+.category {
+  width: 60%;
+  margin: auto;
+}
+
+.category-type {
+  margin-top: 20px;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.category-bar {
+  width: 70%;
+  height: 10px;
+  background-color: grey;
+  border-radius: 25px;
+  margin: 5px 0 0 16%;
+  position: relative;
+}
+.category-bar span {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(255, 85, 85);
+  border-radius: 25px;
+}
+
+.image-category {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1/ span 2; */
+}
+.image-category img {
+  box-shadow: 0 0 6px grey;
+}
+
+.first_image {
+  height: 100%;
+  width: 60%;
+  margin-right: 10px;
+}
+
+/* .first_image img{
+    height: 100%;
+} */
+.second-image {
+  width: 36%;
+}
+.second-image img {
+  height: 49%;
+  width: 100%;
+}
+
+.plus {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.plus i {
+  margin-top: 10px;
+  border: 2px solid grey;
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: 0 0 6px grey;
+}/*# sourceMappingURL=Skill.css.map */

@@ -1,0 +1,45 @@
+@import '../Variable/variable.css';
+
+.container{
+    position:relative;
+    display: flex;
+    overflow: hidden;
+    z-index: -1;
+    img{
+        width: 100%;
+        overflow: hidden;
+        height: 76vh;
+    }
+    .navbar{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        /* border: 5px solid red; */
+    }
+
+    .title{
+        color:$color1;    
+    }
+    .links{
+        font-weight: 100%;
+        position: absolute;
+        left: 729px;
+        top: 4px;
+        /* border: 2px solid grey;   */
+        list-style: none;
+        display: flex;
+        align-items: right;
+        color: $color2;
+        font-size: 18px;
+    
+    li{
+        align-items: flex-end;
+        padding-right: 20px;
+    }
+
+    .menu{
+        border: 1px solid grey;
+        padding: 6px;
+    }
+    }
+}

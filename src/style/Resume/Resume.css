@@ -1,0 +1,56 @@
+.box {
+  border: 1px solid rgb(243, 151, 151);
+  padding: 1em;
+  background-color: white;
+  margin: -20em 19em 0 20em;
+  z-index: -3;
+}
+.box img {
+  width: 80%;
+  height: 50vh;
+  margin: 20px;
+}
+.box .details {
+  width: 70%;
+  align-items: center;
+}
+.box .details p {
+  font-size: 22px;
+  margin: 20px 20px 20px 0;
+}
+.box .details hr {
+  border: 1px solid rgb(211, 209, 209);
+}
+
+.image_description {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.footer {
+  height: 60px;
+  background-color: rgb(219, 113, 113);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+table {
+  /* border: 1px solid black; */
+  font-size: 18px;
+  margin: 2rem 0rem 6rem 0rem;
+}
+table td {
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.resume {
+  text-align: center;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 25px 0 20px 650px;
+  border: 1px solid rgb(184, 179, 179);
+}/*# sourceMappingURL=Resume.css.map */

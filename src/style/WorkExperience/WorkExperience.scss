@@ -1,0 +1,42 @@
+.experience{
+    border: 1px solid black;
+    margin: auto;
+    width: 70%;
+    margin-top: 3%;
+    text-align: center;
+    display: grid;
+}
+
+.detail_box{
+    width: 45%;
+    margin: 10px 0 0 20px;
+    /* border: 1px solid grey; */
+    /* padding: 2px; */
+    box-shadow: 0 0 6px grey;
+    
+}
+.top_detail{
+    border: 1px solid grey;
+    border-top: 5px solid rgb(255, 85, 85);
+    p{
+        padding: 5px;
+    }
+    .date{
+        font-size: 18px;
+        color: rgb(255, 85, 85);
+        font-weight: bold;
+    }
+    .topic{
+        text-transform: uppercase;
+    
+    }
+    .sub-title{
+        text-transform: uppercase;
+    
+    }
+    .desc{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+}
