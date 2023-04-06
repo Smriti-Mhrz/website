@@ -1,6 +1,7 @@
-@import '../Variable/variable.css';
+@import '../Variable/variable.scss';
+
 .box{   
-    border: 1px solid rgb(243, 151, 151);
+    border: 1px solid $color-red;
     padding: 1em;
     background-color: $color-white;
     margin: -20em 19em 0 20em;
@@ -18,7 +19,7 @@
             margin:20px 20px 20px 0;            
         }
         hr{
-            border:1px solid rgb(211, 209,209)
+            border:1px solid $color-hr;
         }
     }
 }
@@ -50,15 +51,19 @@ table{
     display: inline-block;
     font-size:16px;
     margin:25px 0 20px 650px;
-    border: 1px solid rgb(184, 179, 179);
+    border: 1px solid $color-hr;
+    box-shadow: 0 0 1.2% $color-grey;
 }
 
 .paragraph{
-    /* border: 1px solid black; */
-    margin: 0em 10em 3em 10em;
-    justify-content: center;
-    align-items: center;
-    font-size: 22px;
+    P{
+        // border: 1px solid black; 
+        display: block;
+        margin: 0em 10em 3em 10em;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+    }
 }
 .plus{
     display: flex;
@@ -68,10 +73,10 @@ table{
     
     i{
         margin-top: 10px;
-        border: 2px solid grey;
+        border: 2px solid $color-grey;
         padding: 12px;
         border-radius: 5px;
-        box-shadow: 0 0 6px grey;
+        box-shadow: 0 0 6px $color-grey;
         
     }
 }

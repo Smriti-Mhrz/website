@@ -1,9 +1,10 @@
 import React from 'react'
+import '../style/WorkExperience/WorkExperience.css';
 
 export default function WorkExperience() {
   return (
     <>
-        <div class="experience">
+      <div class="experience">
         <div class="experience_head">
           <h1>Work Experience</h1>
         </div>
@@ -13,7 +14,7 @@ export default function WorkExperience() {
               <p class="date">2014-2016</p>
               <p class="topic">Pineapple</p>
               <p class="sub-title">Full stack developer</p>
-              <p class="desc">
+              <p class="descp">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
                 nemo suscipit voluptate eaque doloremque esse magni praesentium
                 quidem. Quaerat doloribus dolorem vero fugiat delectus pariatur
@@ -26,7 +27,7 @@ export default function WorkExperience() {
               <p class="date">2014-2016</p>
               <p class="topic">Pineapple</p>
               <p class="sub-title">Full stack developer</p>
-              <p class="desc">
+              <p class="descp">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
                 nemo suscipit voluptate eaque doloremque esse magni praesentium
                 quidem. Quaerat doloribus dolorem vero fugiat delectus pariatur
@@ -39,7 +40,7 @@ export default function WorkExperience() {
               <p class="date">2014-2016</p>
               <p class="topic">Pineapple</p>
               <p class="sub-title">Full stack developer</p>
-              <p class="desc">
+              <p class="descp">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
                 nemo suscipit voluptate eaque doloremque esse magni praesentium
                 quidem. Quaerat doloribus dolorem vero fugiat delectus pariatur
@@ -52,7 +53,7 @@ export default function WorkExperience() {
               <p class="date">2014-2016</p>
               <p class="topic">Pineapple</p>
               <p class="sub-title">Full stack developer</p>
-              <p class="desc">
+              <p class="descp">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
                 nemo suscipit voluptate eaque doloremque esse magni praesentium
                 quidem. Quaerat doloribus dolorem vero fugiat delectus pariatur
@@ -65,7 +66,7 @@ export default function WorkExperience() {
               <p class="date">2014-2016</p>
               <p class="topic">Pineapple</p>
               <p class="sub-title">Full stack developer</p>
-              <p class="desc">
+              <p class="descp">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
                 nemo suscipit voluptate eaque doloremque esse magni praesentium
                 quidem. Quaerat doloribus dolorem vero fugiat delectus pariatur
@@ -78,7 +79,7 @@ export default function WorkExperience() {
               <p class="date">2014-2016</p>
               <p class="topic">Pineapple</p>
               <p class="sub-title">Full stack developer</p>
-              <p class="desc">
+              <p class="descp">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
                 nemo suscipit voluptate eaque doloremque esse magni praesentium
                 quidem. Quaerat doloribus dolorem vero fugiat delectus pariatur

@@ -1,5 +1,6 @@
+@import '../Variable/variable.css';
 .experience {
-  border: 1px solid black;
+  border: 1px solid;
   margin: auto;
   width: 70%;
   margin-top: 3%;

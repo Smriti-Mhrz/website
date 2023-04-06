@@ -1,14 +1,19 @@
 import React from 'react'
 import '../style/Navbar/NavBar.css'
+import wallpaper from '../assets/images/wallpaper.jpg';
 
 export default function NavBar() {
+ 
   return (
     <>
         <div className="container">
-        <img src='./wallpaper.jpg' alt="backgroundimage" />
+        <img src={wallpaper} alt="backgroundimage" />
         <div className="navbar">
           <h1 className="title">RsCard</h1>
           <ul className="links">
+          {/* {nav.map((item)=>{
+            return(<li>{item}</li>)
+          })} */}
             <li>About</li>
             <li>Skills</li>
             <li>Portfolio</li>

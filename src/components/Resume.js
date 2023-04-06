@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/Resume/Resume.css';
+import person from '../assets/images/profile.jpg'
 
 export default function Resume() {
   return (
@@ -7,7 +8,7 @@ export default function Resume() {
     <div class="box">
         <div class="image_description">
           <div class="image">
-            <img src="image/man.jpg" alt="profile" />
+            <img src={person} alt="profile" />
           </div>
           <div class="details">
             <p>I'm <strong>Robert Smith</strong></p>

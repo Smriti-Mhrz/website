@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import Resume from '../components/Resume'
 import Skill from '../components/Skill'
 import WorkExperience from '../components/WorkExperience'
+import Portfolio from '../components/Portfolio'
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
     <NavBar/>
     <Resume/>
     <Skill/>
+    <Portfolio/>
     <WorkExperience/>
     </>
   )
