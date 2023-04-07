@@ -8,6 +8,9 @@
 }
 body{
   background: black;
+  max-width: 1295px;
+  height: 100vh;  
+  /* overflow: hidden; */
 }
 
 h1,ul,li,p{

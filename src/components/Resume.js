@@ -1,16 +1,15 @@
 import React from 'react'
-import '../style/Resume/Resume.css';
-import person from '../assets/images/profile.jpg'
-
+import '../style/Resume.scss';
+import person from '../assets/images/person.webp'
 export default function Resume() {
   return (
    <>
-    <div class="box">
-        <div class="image_description">
-          <div class="image">
+  <div className='wrapper'>
+    <div className="box">
+          <div className="image">
             <img src={person} alt="profile" />
           </div>
-          <div class="details">
+          <div className="details">
             <p>I'm <strong>Robert Smith</strong></p>
             <p>Developer and Startup entrepreneur</p>
             <hr/>
@@ -37,17 +36,17 @@ export default function Resume() {
               </tr>
             </table>
           </div>
+        
+        <div className="footer">
+          <i className="uil uil-facebook-f"></i>
+          <i className="uil uil-twitter"></i>
+          <i className="uil uil-linkedin"></i>
+          <i className="uil uil-google"></i>
+          <i className="uil uil-instagram"></i>
         </div>
-        <div class="footer">
-          <i class="uil uil-facebook-f"></i>
-          <i class="uil uil-twitter"></i>
-          <i class="uil uil-linkedin"></i>
-          <i class="uil uil-google"></i>
-          <i class="uil uil-instagram"></i>
-        </div>
-      </div>
-      <button class="resume"><b>Download Resume</b></button>
-      <div class="paragraph">
+    </div>
+      {/* <button className="resume"><b>Download Resume</b></button> */}
+      {/* <div className="paragraph">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
           tenetur cum, pariatur numquam, quisquam vero reiciendis a alias saepe
@@ -60,7 +59,8 @@ export default function Resume() {
           aliquam. Explicabo iusto dolorum corrupti magni veniam? Soluta iusto
           illum suscipit sit, id iure. Aperiam labo!
         </p>
-      </div>
+      </div> */}
+  </div>
    </>
   )
 }

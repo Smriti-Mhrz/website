@@ -1,11 +1,10 @@
-import React from 'react'
-import wallpaper from '../assets/images/wallpaper.jpg';
-import '../style/NavBar/NavBar.scss'
+import React from 'react';
+import "../style/NavBar.scss"
 import { useState } from 'react';
-// import {FaBars, FaTimes} from 'react-icons'
+import {FaBars, FaTimes} from 'react-icons/fa'
 
 export default function NavBar() {
-  const [click,setClick]= useState[false];
+  const [click,setClick]= useState(false);
   const handleClick= ()=>{
     setClick(!click);
   } 
@@ -13,8 +12,7 @@ export default function NavBar() {
     <>
     <div className='header'>
       <h1>RsCard</h1>
-      {/* <ul className={click?"nav-menubar active":"nav-menu"}> */}
-      <ul>
+      <ul className={click?"nav-menubar active":"nav-menu"}>      
             <li>About</li>
             <li>Skills</li>
             <li>Portfolio</li>
@@ -24,9 +22,9 @@ export default function NavBar() {
             <li>Calendar</li>
             <li>Contact</li>
       </ul>
-      {/* <div className='hamburger' onClick={handleClick}>
+      <div className='hamburger' onClick={handleClick}>
         {click ? (<FaTimes size={20} style={{color:'#fff'}}/>):(<FaBars size={20} style={{color:'#fff'}}/> )}         
-      </div> */}
+      </div>
 
         {/* <div className="container">
           <div className='image'>
